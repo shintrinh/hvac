@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>AirwayHVAC.SmsAi.Api</AssemblyName>
+    <RootNamespace>AirwayHVAC.SmsAi.Api</RootNamespace>
+    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../AirwayHVAC.SmsAi.Application/AirwayHVAC.SmsAi.Application.csproj" />
+    <ProjectReference Include="../AirwayHVAC.SmsAi.Infrastructure/AirwayHVAC.SmsAi.Infrastructure.csproj" />
+    <ProjectReference Include="../AirwayHVAC.SmsAi.Shared/AirwayHVAC.SmsAi.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.23.0" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.2.0" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.17.2" OutputItemType="Analyzer" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="10.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.3" />
+    <PackageReference Include="SendGrid" Version="9.29.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

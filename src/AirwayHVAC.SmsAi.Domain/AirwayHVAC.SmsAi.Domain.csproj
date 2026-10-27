@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>AirwayHVAC.SmsAi.Domain</AssemblyName>
+    <RootNamespace>AirwayHVAC.SmsAi.Domain</RootNamespace>
+  </PropertyGroup>
+</Project>

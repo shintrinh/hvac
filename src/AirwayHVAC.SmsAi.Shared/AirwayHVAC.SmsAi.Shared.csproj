@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>AirwayHVAC.SmsAi.Shared</AssemblyName>
+    <RootNamespace>AirwayHVAC.SmsAi.Shared</RootNamespace>
+  </PropertyGroup>
+</Project>

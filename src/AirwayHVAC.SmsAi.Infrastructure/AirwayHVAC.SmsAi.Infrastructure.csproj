@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>AirwayHVAC.SmsAi.Infrastructure</AssemblyName>
+    <RootNamespace>AirwayHVAC.SmsAi.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../AirwayHVAC.SmsAi.Application/AirwayHVAC.SmsAi.Application.csproj" />
+    <ProjectReference Include="../AirwayHVAC.SmsAi.Domain/AirwayHVAC.SmsAi.Domain.csproj" />
+    <ProjectReference Include="../AirwayHVAC.SmsAi.Shared/AirwayHVAC.SmsAi.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.47.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    <PackageReference Include="Twilio" Version="7.2.3" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+out/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE folders
+.vs/
+.vscode/
+.idea/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]enchmarkDotNet.Artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+
+# Logs
+*.log
+logs/
+
+# Azure Functions local runtime artifacts
+src/**/bin/
+src/**/obj/
+local.settings.json
+
+# Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# OS files
+.DS_Store
+Thumbs.db
